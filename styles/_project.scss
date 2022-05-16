@@ -1,0 +1,52 @@
+/************ Project section begins ****************/
+#projects {
+    @extend %base;
+
+    h1{
+        @extend %subheading;
+        margin: 0;
+        padding-bottom: 50px; 
+    }
+
+    h3 {
+        font-weight: normal;
+    }
+       
+    .top-layer {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 80px;
+        @include flexCenter(row);
+        @extend %text;
+
+        img {
+            width: 615px;
+            height: 329px;
+            padding-right: 30px;
+        }
+    }
+
+    .bottom-layer {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        @include flexCenter(row);
+        @extend %text;
+
+        img {
+            width: 615px;
+            height: 329px;
+            padding-left: 30px;
+        }
+    }   
+
+    a {
+        @include flexCenter(row);
+        font-size: 36px;
+        line-height: 42.19px;
+        text-decoration: underline;
+        font-family: "Roboto";
+        color: black;
+    }
+}

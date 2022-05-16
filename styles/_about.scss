@@ -1,0 +1,27 @@
+/****************** About Section Begins**************************/
+#about {
+    @extend %base;
+
+    h1 {
+        @extend %subheading;
+        margin-top: 0;
+        padding-top: 50px;
+    }
+
+    .about-text {
+        @include flexCenter(column);
+
+        p {
+            border: 1px solid #FAF6F6;
+            font-size: 18px;
+            width: 600px;
+            height: 360px;
+            text-align: center;
+        }
+
+        button {
+            @extend %button;
+            margin-bottom: 20px;
+        }
+    }      
+}

@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Radley&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* background color */
+.home, #about, #projects, #contact {
+  width: auto;
+  height: auto;
+}
+
+.home div h1, #about h1, #projects h1, #contact h1 {
+  font-weight: normal;
+  text-align: center;
+  font-size: 75px;
+  line-height: 84px;
+  text-shadow: 5px 5px #c4c4c4;
+}
+
+.home button, #about .about-text button, #contact button {
+  width: 210px;
+  height: 47px;
+  padding: 10px;
+  color: #FAF6F6;
+  background-color: #353434;
+  border-radius: 10px;
+}
+
+#projects .top-layer .text, #projects .bottom-layer .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#projects .top-layer .text h3, #projects .bottom-layer .text h3 {
+  margin: 0;
+  font-size: 48px;
+  line-height: 56px;
+  font-family: "Roboto";
+}
+
+#projects .top-layer .text p, #projects .bottom-layer .text p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 500px;
+  font-family: "roboto";
+  font-size: 24px;
+  line-height: 28px;
+}
+
+#projects .top-layer .text a, #projects .bottom-layer .text a {
+  float: left;
+  margin: 0;
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 28px;
+  color: black;
+}
+
+/****************** Home Section Begins ****************************/
+.home {
+  background: linear-gradient(55.68deg, #C4C4C4, #faf6f6);
+  overflow: hidden;
+}
+
+.home #navbar {
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+.home #navbar a {
+  font-family: "Radley";
+  font-size: 28px;
+  line-height: 35px;
+  color: black;
+  padding: 20px;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+.home #navbar mark {
+  background-color: white;
+}
+
+.home div {
+  padding-left: 67px;
+  white-space: nowrap;
+}
+
+.home div h1 {
+  text-align: left;
+}
+
+.home div p {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.home .icons {
+  padding-top: 50px;
+}
+
+.home .icons img {
+  float: left;
+  width: auto;
+  height: auto;
+  background-color: #faf6f6;
+}
+
+.home img {
+  float: right;
+}
+
+/****************** About Section Begins**************************/
+#about h1 {
+  margin-top: 0;
+  padding-top: 50px;
+}
+
+#about .about-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#about .about-text p {
+  border: 1px solid #FAF6F6;
+  font-size: 18px;
+  width: 600px;
+  height: 360px;
+  text-align: center;
+}
+
+#about .about-text button {
+  margin-bottom: 20px;
+}
+
+/************ Project section begins ****************/
+#projects h1 {
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+#projects h3 {
+  font-weight: normal;
+}
+
+#projects .top-layer {
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#projects .top-layer img {
+  width: 615px;
+  height: 329px;
+  padding-right: 30px;
+}
+
+#projects .bottom-layer {
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#projects .bottom-layer img {
+  width: 615px;
+  height: 329px;
+  padding-left: 30px;
+}
+
+#projects a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 36px;
+  line-height: 42.19px;
+  text-decoration: underline;
+  font-family: "Roboto";
+  color: black;
+}
+
+/***************** Contact section begins ****************************/
+#contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact h1 {
+  margin: 0;
+  padding-top: 20px;
+}
+
+#contact p {
+  text-align: center;
+  font-size: 23px;
+  line-height: 25px;
+}
+
+#contact form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 30px;
+}
+
+#contact form input {
+  padding: 10px 20px 10px 20px;
+  border: 1px ridge black;
+  border-radius: 15px;
+  width: 100%;
+}
+
+#contact form textarea {
+  border-radius: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 100%;
+  border: 1px ridge black;
+}
+
+#contact button {
+  width: 465px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "PT Mono";
+  font-weight: 400;
+  width: 1440px;
+  height: auto;
+  background-color: #FAF6F6;
+}
+
+.container {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=style.css.map */

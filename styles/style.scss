@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Radley&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "_variables";
+@import "_home";
+@import "_about";
+@import "project";
+@import "_contact";
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "PT Mono";
+    font-weight: 400;
+    width: 1440px;
+    height: auto;
+    background-color: $background;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    
+}
